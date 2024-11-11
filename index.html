@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <header>
         <img src="/favicon.png" alt="logo" width="60px">
@@ -20,35 +22,46 @@
 
             <button class="tab-btn" content-id="mod"><b>Modulação</b></button>
         </section>
-    
-    <div class="tab-contents"></div>    
+
+        <div class="tab-contents"></div>
         <article class="content" id="cleanCode">
             <img src="/cleancode.png" alt="CleanCode" width="600px">
             <div>
                 <h2>CleanCode</h2>
                 <p>
-                    "Clean Code" é um conceito popularizado pelo livro de Robert C. Martin, que se concentra em práticas de programação que tornam o código mais legível, manutenível e eficiente. Aqui estão alguns dos principais princípios:
+                    "Clean Code" é um conceito popularizado pelo livro de Robert C. Martin, que se concentra em práticas
+                    de programação que tornam o código mais legível, manutenível e eficiente. Aqui estão alguns dos
+                    principais princípios:
                 </p>
-                    <li><b>Nomes significativos:</b> Use nomes claros e descritivos para variáveis, funções e classes. Isso ajuda na compreensão do que o código faz.</li>
-                    
-                    <li><b>Funções pequenas:</b> Mantenha funções curtas e focadas em uma única tarefa. Isso facilita a leitura e a reutilização.</li>
-                    
-                    <li><b>Elimine duplicações:</b> Código duplicado aumenta a chance de erros e dificulta a manutenção. Utilize funções ou classes para reutilizar código.</li>
-                    
-                    <li><b>Comente o que não é óbvio:</b> Enquanto um código limpo deve ser autoexplicativo, às vezes é necessário adicionar comentários para esclarecer a intenção.</li>
-                    
-                    <li><b>Tratamento de erros:</b> Mantenha o código de tratamento de erros separado e claro, evitando o uso de códigos de erro que podem confundir.</li>
-                    
-                    <li><b>Organização do código:</b> Estruture seu código de maneira lógica, separando em módulos, classes e arquivos conforme necessário.</li>
-                    
-                    <li><b>Testes automatizados:</b> Escrever testes para seu código garante que ele funcione como esperado e ajuda a prevenir regressões.</li>
-                    
-                    <li><b>Refatoração contínua:</b> Esteja sempre disposto a revisar e melhorar o código, tornando-o mais limpo e eficiente.</li>
-                
+                <li><b>Nomes significativos:</b> Use nomes claros e descritivos para variáveis, funções e classes. Isso
+                    ajuda na compreensão do que o código faz.</li>
+
+                <li><b>Funções pequenas:</b> Mantenha funções curtas e focadas em uma única tarefa. Isso facilita a
+                    leitura e a reutilização.</li>
+
+                <li><b>Elimine duplicações:</b> Código duplicado aumenta a chance de erros e dificulta a manutenção.
+                    Utilize funções ou classes para reutilizar código.</li>
+
+                <li><b>Comente o que não é óbvio:</b> Enquanto um código limpo deve ser autoexplicativo, às vezes é
+                    necessário adicionar comentários para esclarecer a intenção.</li>
+
+                <li><b>Tratamento de erros:</b> Mantenha o código de tratamento de erros separado e claro, evitando o
+                    uso de códigos de erro que podem confundir.</li>
+
+                <li><b>Organização do código:</b> Estruture seu código de maneira lógica, separando em módulos, classes
+                    e arquivos conforme necessário.</li>
+
+                <li><b>Testes automatizados:</b> Escrever testes para seu código garante que ele funcione como esperado
+                    e ajuda a prevenir regressões.</li>
+
+                <li><b>Refatoração contínua:</b> Esteja sempre disposto a revisar e melhorar o código, tornando-o mais
+                    limpo e eficiente.</li>
+
                 <p>
-                    Esses princípios ajudam a criar um código que é mais fácil de entender e manter, beneficiando tanto o desenvolvedor quanto a equipe
-                </p>            
-           </div>
+                    Esses princípios ajudam a criar um código que é mais fácil de entender e manter, beneficiando tanto
+                    o desenvolvedor quanto a equipe
+                </p>
+            </div>
         </article>
 
         <article class="content" id="mod">
@@ -56,22 +69,35 @@
             <div>
                 <h2>Modulação</h2>
                 <p>
-                    Modulação é um conceito que se refere à prática de dividir um sistema, especialmente em programação e desenvolvimento de software, em componentes menores e mais gerenciáveis. Isso facilita a compreensão, manutenção e reutilização do código. Aqui estão os principais aspectos da modulação:
+                    Modulação é um conceito que se refere à prática de dividir um sistema, especialmente em programação
+                    e desenvolvimento de software, em componentes menores e mais gerenciáveis. Isso facilita a
+                    compreensão, manutenção e reutilização do código. Aqui estão os principais aspectos da modulação:
 
-                    <li><b>Separação de preocupações:</b> Cada módulo deve ter uma única responsabilidade ou função. Isso significa que, se você precisar fazer alterações em uma parte do sistema, você pode fazê-lo sem impactar outras partes.</li>
-                    
-                    <li><b>Reutilização:</b> Módulos podem ser reutilizados em diferentes partes do projeto ou até mesmo em projetos diferentes. Isso reduz a duplicação de código e melhora a eficiência do desenvolvimento.</li>
-                    
-                    <li><b>Facilidade de manutenção:</b> Com um código modular, é mais fácil identificar e corrigir bugs, além de implementar novas funcionalidades. Se um módulo tem problemas, você pode se concentrar apenas naquela parte específica.</li>
-                    
-                    <li><b>Testabilidade:</b> Módulos menores e isolados são mais fáceis de testar. Você pode escrever testes unitários para cada módulo de forma independente.</li>
-                    
-                    <li><b>Encapsulamento:</b> Módulos podem esconder sua implementação interna, expondo apenas uma interface pública. Isso protege o código interno e reduz a dependência entre módulos.</li>
-                    
-                    <li><b>Escalabilidade:</b> Sistemas modulares são mais fáceis de escalar, pois você pode adicionar ou modificar módulos sem reescrever todo o sistema.</li>
-                    
-                    Na prática, a modulação pode ser implementada em diferentes linguagens de programação através de classes, funções, pacotes, módulos ou bibliotecas. Por exemplo, em JavaScript, você pode usar módulos ES6; em Python, pode usar pacotes e módulos.
-                </p>            
+                    <li><b>Separação de preocupações:</b> Cada módulo deve ter uma única responsabilidade ou função.
+                        Isso significa que, se você precisar fazer alterações em uma parte do sistema, você pode fazê-lo
+                        sem impactar outras partes.</li>
+
+                    <li><b>Reutilização:</b> Módulos podem ser reutilizados em diferentes partes do projeto ou até mesmo
+                        em projetos diferentes. Isso reduz a duplicação de código e melhora a eficiência do
+                        desenvolvimento.</li>
+
+                    <li><b>Facilidade de manutenção:</b> Com um código modular, é mais fácil identificar e corrigir
+                        bugs, além de implementar novas funcionalidades. Se um módulo tem problemas, você pode se
+                        concentrar apenas naquela parte específica.</li>
+
+                    <li><b>Testabilidade:</b> Módulos menores e isolados são mais fáceis de testar. Você pode escrever
+                        testes unitários para cada módulo de forma independente.</li>
+
+                    <li><b>Encapsulamento:</b> Módulos podem esconder sua implementação interna, expondo apenas uma
+                        interface pública. Isso protege o código interno e reduz a dependência entre módulos.</li>
+
+                    <li><b>Escalabilidade:</b> Sistemas modulares são mais fáceis de escalar, pois você pode adicionar
+                        ou modificar módulos sem reescrever todo o sistema.</li>
+
+                    Na prática, a modulação pode ser implementada em diferentes linguagens de programação através de
+                    classes, funções, pacotes, módulos ou bibliotecas. Por exemplo, em JavaScript, você pode usar
+                    módulos ES6; em Python, pode usar pacotes e módulos.
+                </p>
             </div>
 
         </article>
@@ -81,4 +107,5 @@
 
 </body>
 <script src="/script.js"></script>
+
 </html>
